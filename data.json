@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "age": 25,
+      "companyId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@gmail.com",
+      "age": 23,
+      "companyId": 2
+    },
+    {
+      "name": "Juan",
+      "email": "test@test.com",
+      "age": 28,
+      "companyId": "1",
+      "id": 3
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Tiims"
+    },
+    {
+      "id": 2,
+      "name": "Google"
+    }
+  ]
+}
