@@ -29,6 +29,7 @@ const CompanyType = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLString },
     name: { type: GraphQLString },
+    url: { type: GraphQLString },
     users: {
       type: new GraphQLList(UserType),
       resolve(parentValue, args) {
